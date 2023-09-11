@@ -5,5 +5,3 @@
 2、mainsail installation and uninstallation
 
 3、firmware recovery tool
-
-4、Pinmap
