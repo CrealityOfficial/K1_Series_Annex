@@ -1,0 +1,6 @@
+
+一、执行程序
+
+	Ubuntu 系统环境，在终端中运行 ./cloner 脚本启动烧录程序。
+
+	Windows 系统环境，执行 cloner.exe 启动烧录程序。

@@ -1,0 +1,18 @@
+操作流程
+
+将同级目录文件（fluidd）放到U盘
+
+拷贝 fluidd.sh 和 fluidd.tar 文件到 /usr/data 目录
+cp /tmp/udisk/sda1/fluidd/* /usr/data/
+
+安装 fluidd、moonraker 和 nginx
+/usr/data/fluidd.sh install
+
+卸载 fluidd、moonraker 和 nginx
+/usr/data/fluidd.sh unstall
+
+进入fluidd
+IP 接 4408 端口
+例， 192.168.1.1:4408
+
+警告：Monnraker在K1系列上长时间运行会有内存溢出风险

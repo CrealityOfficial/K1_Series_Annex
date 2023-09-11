@@ -1,0 +1,16 @@
+操作流程
+
+将同级目录文件（mainsail）放到U盘
+
+拷贝 mainsail.sh 和 mainsail.tar 文件到 /usr/data 目录
+cp /tmp/udisk/sda1/mainsail/* /usr/data/
+
+安装 mainsail、moonraker 和 nginx
+/usr/data/mainsail.sh install
+
+卸载 mainsail、moonraker 和 nginx
+/usr/data/mainsail.sh unstall
+
+进入mainsail
+IP 接 4409 端口
+例， 192.168.1.1:4409
