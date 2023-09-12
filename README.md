@@ -7,3 +7,5 @@
 3、firmware recovery tool
 
 4、pin out
+
+5、root tutorial
