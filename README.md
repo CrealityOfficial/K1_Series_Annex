@@ -1,10 +1,10 @@
 # K1_Series_Annex
 
-1、fluidd installation and uninstallation
+1、firmware recovery tool
 
-2、mainsail installation and uninstallation
+2、fluidd installation and uninstallation
 
-3、firmware recovery tool
+3、mainsail installation and uninstallation
 
 4、pin out
 
