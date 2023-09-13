@@ -10,4 +10,4 @@
 
 5、release file
 
-6、root tutorial
+6、root guide
