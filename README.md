@@ -8,6 +8,4 @@
 
 4、pin out
 
-5、release file
-
-6、root guide
+5、root guide
