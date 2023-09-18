@@ -9,3 +9,5 @@
 4、pin out
 
 5、root guide
+
+release： https://github.com/CrealityOfficial/K1_Series_Klipper/releases/tag/V1.3.2.1
