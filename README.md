@@ -10,4 +10,4 @@
 
 firmware-recovery-tool: https://github.com/CrealityOfficial/K1_Series_Annex/releases/tag/V1.0.0
 
-release： https://github.com/CrealityOfficial/K1_Series_Klipper/releases/tag/V1.3.2.1
+release： https://github.com/CrealityOfficial/K1_Series_Klipper/releases/tag/V1.3.3.5
