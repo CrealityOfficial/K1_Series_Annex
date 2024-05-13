@@ -1,18 +1,36 @@
-Instruction
+# Instruction for installing fluidd on K1/K1Max 3D printers
 
-Put the same level directory file ( fluidd ) in the root directory of the U disk
+## prerequisite 
+enable root access for your K1/K1Max printer in the settings menu of your touch screen display
 
-Copy the files ( fluidd.sh and fluidd.tar ) to directory ( /usr/data )
-cp /tmp/udisk/sda1/fluidd/* /usr/data/
+## get and install fluidd
+
+ssh as root:
+
+```
+$ ssh root@192.168.1.x
+root@192.168.1.x's password:  # default password is creality_2023 
+root@K1Max-1 /root [#] cd /usr/data/
+root@K1Max-1 /usr/data [#] wget https://raw.githubusercontent.com/CrealityOfficial/K1_Series_Annex/main/fluidd/fluidd/fluidd.sh
+root@K1Max-1 /usr/data [#] wget https://raw.githubusercontent.com/CrealityOfficial/K1_Series_Annex/main/fluidd/fluidd/fluidd.tar
+root@K1Max-1 /usr/data [#] chmod 744 fluidd.sh
+```
 
 Install fluidd, moonraker and nginx
-/usr/data/fluidd.sh install
+```
+root@K1Max-1 /usr/data [#] ./fluidd install
+```
 
 unstall fluidd, moonraker and nginx
-/usr/data/fluidd.sh unstall
+```
+root@K1Max-1 /usr/data [#] ./fluidd uninstall
+```
 
-Into fluidd
-IP with 4408 port
-eg, 192.168.1.1:4408
+## access fluidd
+
+Fluidd opens a port on 4408, so you can access it for example via:
+http://192.168.1.x:4408
+
+## remarks
 
 Warning: Monnraker running for a long time on the K1 series poses a risk of memory overflow
